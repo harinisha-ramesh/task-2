@@ -1,0 +1,205 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    
+    
+}
+
+
+h3 {
+    color: slateblue;
+    text-decoration: underline;
+    text-align: center;
+    height: 4%;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    font-size: normal;
+    
+}
+form{
+    width: 100%;
+    height: 96%;  
+}
+
+table{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: slateblue;
+    border-collapse: collapse;
+    height: 100%;
+    width: 60%;  
+}
+@media screen and (max-width: 768px) {
+    h3 {
+        font-size: 20px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    table {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    table.newTable td {
+        padding: 8px;
+    }
+
+    table.edu input {
+        width: 100%;
+    }
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 500px) {
+    h3 {
+        font-size: 18px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    table {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    table.newTable td {
+        padding: 5px;
+    }
+
+    table.edu input {
+        width: 100%;
+    }
+}
+/*
+@media screen and (max-width: 768px) {
+    h3 {
+        font-size: 18px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    table {
+        font-size: 8px;
+        width: 100%;
+    }
+
+    table.newTable td {
+        padding: 5px;
+    }
+
+    table.edu input {
+        width: 100%;
+    }
+}
+/*
+.edu input[name^="board"] {
+    width: 80px;
+}
+.edu input[name^="percentage"] {
+    width: 70px;
+}
+.edu input[name^="year"] {
+    width: 60px;
+}
+
+table.inner{
+    border:0px
+
+}
+
+@media screen and (max-width:500px){
+    h2{
+        font-size: 20px; 
+        padding: 2px;
+    }
+    
+}
+/*
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    form {
+        font-size: 12px;
+    }
+
+    table {
+        border-spacing: 2px 5px; /* Adjust cell spacing 
+    }
+
+    table.newTable td {
+        padding: 5px; /* Adjust cell padding 
+    }
+}
+
+/* Media query for medium screens 
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    h2 {
+        font-size: 15px;
+    }
+
+    form {
+        font-size: 8px;
+    }
+
+    table {
+        border-spacing: 2px 3px; /* Adjust cell spacing 
+        
+    }
+
+    table.newTable td {
+        padding: 10px; /* Adjust cell padding 
+    }
+} 
+
+/* Media query for large screens 
+@media screen and (min-width: 1025px) {
+    h2 {
+        font-size: 33px;
+    }
+
+    form {
+        font-size: 14px;
+    }
+
+    table {
+        border-spacing: 10px 15px; /* Adjust cell spacing 
+    }
+
+    table.newTable td {
+        padding: 15px; /* Adjust cell padding 
+    }
+}
+
+/*
+@media (max-width: 600px) {
+    h2 {
+        font-size: 4vw;
+    }
+
+    form {
+        width: 95vw;
+        height: 95vh;
+    }
+
+    table {
+        font-size: 12px;
+    }
+} */
