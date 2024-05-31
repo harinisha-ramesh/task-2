@@ -25,7 +25,7 @@ h3 {
 form{
     width: 100%;
     height: 96%;  
-    margin:auto;
+    margin: auto;
 }
 
 table{
@@ -45,9 +45,10 @@ table{
     }
 
     form {
-        width: 90%;
+        width: 100%;
+        height: 100%;
     }
-
+    
     table {
         font-size: 12px;
         width: 100%;
@@ -63,13 +64,14 @@ table{
 }
 
 /* Media query for small screens */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     h3 {
         font-size: 18px;
     }
 
     form {
         width: 100%;
+        height: 100%;
     }
 
     table {
@@ -84,123 +86,9 @@ table{
     table.edu input {
         width: 100%;
     }
-}
-/*
-@media screen and (max-width: 768px) {
-    h3 {
-        font-size: 18px;
-    }
-
-    form {
-        width: 90%;
-    }
-
-    table {
-        font-size: 8px;
+    input[type="text"],input[type="email"],input[type="number"],select,textarea{
         width: 100%;
-    }
-
-    table.newTable td {
-        padding: 5px;
-    }
-
-    table.edu input {
-        width: 100%;
+        box-sizing: border-box;
+        display: block;
     }
 }
-/*
-.edu input[name^="board"] {
-    width: 80px;
-}
-.edu input[name^="percentage"] {
-    width: 70px;
-}
-.edu input[name^="year"] {
-    width: 60px;
-}
-
-table.inner{
-    border:0px
-
-}
-
-@media screen and (max-width:500px){
-    h2{
-        font-size: 20px; 
-        padding: 2px;
-    }
-    
-}
-/*
-@media screen and (max-width: 600px) {
-    h2 {
-        font-size: 24px;
-    }
-
-    form {
-        font-size: 12px;
-    }
-
-    table {
-        border-spacing: 2px 5px; /* Adjust cell spacing 
-    }
-
-    table.newTable td {
-        padding: 5px; /* Adjust cell padding 
-    }
-}
-
-/* Media query for medium screens 
-@media screen and (min-width: 601px) and (max-width: 1024px) {
-    h2 {
-        font-size: 15px;
-    }
-
-    form {
-        font-size: 8px;
-    }
-
-    table {
-        border-spacing: 2px 3px; /* Adjust cell spacing 
-        
-    }
-
-    table.newTable td {
-        padding: 10px; /* Adjust cell padding 
-    }
-} 
-
-/* Media query for large screens 
-@media screen and (min-width: 1025px) {
-    h2 {
-        font-size: 33px;
-    }
-
-    form {
-        font-size: 14px;
-    }
-
-    table {
-        border-spacing: 10px 15px; /* Adjust cell spacing 
-    }
-
-    table.newTable td {
-        padding: 15px; /* Adjust cell padding 
-    }
-}
-
-/*
-@media (max-width: 600px) {
-    h2 {
-        font-size: 4vw;
-    }
-
-    form {
-        width: 95vw;
-        height: 95vh;
-    }
-
-    table {
-        font-size: 12px;
-    }
-} */
